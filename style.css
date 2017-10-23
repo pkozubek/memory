@@ -1,0 +1,51 @@
+body{
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+#cards-container{
+    margin: 40px;
+    width: 1280px;
+    height: 200px;
+    font-size: 100px;
+}
+
+.card{
+    float: left;
+    background: white;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;  
+    color: black;
+}
+
+#tries{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.card:hover{
+    border: solid;
+    border-color: red;
+    
+}
+
+.card-hidden{
+    visibility: hidden;
+}
+
+.card-selected{
+    background: blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
